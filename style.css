@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff9494;
+}
+
+.nav-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff9494, #ffb3b3);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    color: #ff9494;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #ffe3e1;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff5e4;
+}
+
+.letter-box {
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #ff9494;
+    border-radius: 10px;
+    background-color: white;
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.letter-box h2 {
+    text-align: center;
+    color: #ff9494;
+}
+
+.letter-box p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.audio-button, .video-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff9494;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.audio-button:hover, .video-button:hover {
+    background-color: #e67373;
+}
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff5e4;
+}
+
+.linked-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff9494;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
